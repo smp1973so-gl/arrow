@@ -330,7 +330,7 @@ if [ -x "$(command -v ldconfig)" ]; then
     SUDO=
   else
     if [ -x "$(command -v sudo)" ]; then
-      SUDO=sudo
+      SUDO=sudo 
     else
       SUDO=
     fi
